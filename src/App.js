@@ -1,14 +1,96 @@
 import logo from './logo.svg';
 import './App.css';
+import OwlCarousel from 'react-owl-carousel';
+import Countdown from 'react-countdown';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function App() {
+    const options = {
+        loop: true,
+        center: true,
+        items: 1,
+        margin: 0,
+        autoplay: true,
+        dots: false,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        nav: false,
+        // responsive: {
+        //     0: {
+        //         items: 1
+        //     },
+        //     600: {
+        //         items: 3
+        //     },
+        //     1000: {
+        //         items: 3
+        //     }
+        // }
+    };
+    const renderer = ({ days,hours, minutes, seconds }) => {
+ {
+          // Render a countdown
+          return <div id="clock"><div>{days} <span>Days</span></div> <div>{hours}<span>Hours</span></div> <div>{minutes} <span>Minutes</span></div> <div>{seconds} <span>Seconds</span></div></div>
+         
+        }
+      };
   return (
     <div className="App">
       
     <section className="welcome-area">
-        <div className="welcome-slides owl-carousel">
+        
 
-            <div className="single-welcome-slide bg-img bg-overlay jarallax"
+        <OwlCarousel className='welcome-slides owl-carousel' {...options}>
+            <div className='single-welcome-slide bg-img bg-overlay jarallax' style={{'backgroundImage': "url('img/bg-img/1.jpg')"}}>
+                <div className="container h-100">
+                    <div className="row h-100 align-items-center">
+
+                        <div className="col-12">
+                            <div className="welcome-text text-right">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Science <br/>Conference</h2>
+                                <h6 data-animation="fadeInUp" data-delay="500ms">Shangri-La Hotel, Bangkok, Bangkok,
+                                    Thailand</h6>
+                                <div className="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
+                                    <a href="/#" className="btn confer-btn">More Information <i
+                                            className="zmdi zmdi-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='single-welcome-slide bg-img bg-overlay jarallax' style={{'backgroundImage': "url('img/bg-img/45.jpg')"}}>
+            <div className="container h-100">
+                    <div className="row h-100 align-items-center">
+
+                        <div className="col-12">
+                            <div className="welcome-text-two text-center">
+                                <h5 data-animation="fadeInUp" data-delay="100ms">The event consistently</h5>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">OSHA Compliance</h2>
+
+                                <div className="event-meta" data-animation="fadeInUp" data-delay="500ms">
+                                    <a className="event-date" href="/#"><i className="zmdi zmdi-account"></i> January 14,
+                                        2019</a>
+                                    <a className="event-author" href="/#"><i className="zmdi zmdi-alarm-check"></i> Laura
+                                        Green</a>
+                                </div>
+                                <div className="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
+                                    <a href="/#" className="btn confer-btn m-2">View more <i
+                                            className="zmdi zmdi-long-arrow-right"></i></a>
+                                    <a href="/#" className="btn confer-btn m-2">Get Tickets <i
+                                            className="zmdi zmdi-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+            
+        </OwlCarousel>
+
+            {/* <div className="single-welcome-slide bg-img bg-overlay jarallax"
                 style={{'backgroundImage': "url('img/bg-img/1.jpg')"}}>
                 <div className="container h-100">
                     <div className="row h-100 align-items-center">
@@ -55,8 +137,8 @@ function App() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> */}
+        
 
         <div className="icon-scroll" id="scrollDown"></div>
     </section>
@@ -100,7 +182,11 @@ function App() {
                     </div>
                     <div className="col-12 col-md-9">
                         <div className="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <div id="clock"></div>
+                            
+                            <Countdown
+                                date={'2024-01-13T00:00:00'}
+                                renderer={renderer}
+                            />
                         </div>
                     </div>
                 </div>

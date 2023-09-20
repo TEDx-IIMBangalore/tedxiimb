@@ -3,27 +3,29 @@ import './App.css';
 import About from './components/about';
 import Home from './components/home';
 import Navbar from './components/navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Speakers from './components/speakers';
 import Tickets from './components/tickets';
 import Team from './components/team';
 import Conatct from './components/contact';
+import ScrollToTop from './utils/ScrollToTop';
 
 //initResponsiveNav
 
 function App() {
   return (
     <Router>
+        <ScrollToTop/>
         <div className="App">
             <Navbar/>
-            <Routes>
-                <Route path="/about"  exact element={<About />}></Route>
-                <Route path="/speakers"  exact element={<Speakers />}></Route>
-                <Route path="/tickets"  exact element={<Tickets />}></Route>
-                <Route path="/team"  exact element={<Team />}></Route>
-                <Route path="/contact"  exact element={<Conatct />}></Route>
-                <Route path="/"  exact element={<Home />}></Route>
-            </Routes>
+            <Switch>
+                <Route path="/about"  exact component={About}></Route>
+                <Route path="/speakers"  exact component={Speakers}></Route>
+                <Route path="/tickets"  exact component={Tickets}></Route>
+                <Route path="/team"  exact component={Team}></Route>
+                <Route path="/contact"  exact component={Conatct}></Route>
+                <Route path="/"  exact component={Home}></Route>
+            </Switch>
             <footer className="footer-area bg-img bg-overlay-2 section-padding-100-0">
                 <div className="main-footer-area">
                     <div className="container">

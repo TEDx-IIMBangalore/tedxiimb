@@ -41,3 +41,21 @@
     padding-top: 200px;
 }
 
+.nabarlogo {
+    width: 30%;
+}
+@media only screen and (max-width: 990px) {
+    .nabarlogo {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 990px) {
+    .nabarlogo {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .nabarlogo {
+        width: 70%;
+    }
+}

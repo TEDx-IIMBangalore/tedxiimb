@@ -15,7 +15,7 @@ class Navbar extends React.Component {
 
                     <nav className="classy-navbar justify-content-between" id="conferNav">
 
-                        <Link to="/"><img src="img/core-img/logo.png" alt/></Link>
+                        <Link to="/" className='nabarlogo'><img  src="img/core-img/logo.png" alt/></Link>
 
                         <div className="classy-navbar-toggler">
                             <span className="navbarToggler"><span></span><span></span><span></span></span>

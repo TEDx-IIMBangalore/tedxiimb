@@ -3,6 +3,7 @@ import OwlCarousel from 'react-owl-carousel';
 import Countdown from 'react-countdown';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component{
     options = {
@@ -10,7 +11,7 @@ class Home extends React.Component{
         center: true,
         items: 1,
         margin: 0,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         autoplayTimeout: 8500,
         smartSpeed: 450,
@@ -34,12 +35,12 @@ class Home extends React.Component{
 
                                     <div className="col-12">
                                         <div className="welcome-text text-right">
-                                            <h2 data-animation="fadeInUp" data-delay="300ms">Science <br/>Conference</h2>
-                                            <h6 data-animation="fadeInUp" data-delay="500ms">Shangri-La Hotel, Bangkok, Bangkok,
-                                                Thailand</h6>
+                                            <h2 data-animation="fadeInUp" data-delay="300ms">TED<span className='x-factor'>x</span></h2>
+                                            <h3 data-animation="fadeInUp" data-delay="300ms">IIM Bangalore</h3>
+                                            <h6 data-animation="fadeInUp" data-delay="500ms">is back!</h6>
                                             <div className="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
-                                                <a href="/#" className="btn confer-btn">More Information <i
-                                                        className="zmdi zmdi-long-arrow-right"></i></a>
+                                               
+                               
                                             </div>
                                         </div>
                                     </div>
@@ -89,14 +90,10 @@ class Home extends React.Component{
 
                             <div className="col-12 col-md-6">
                                 <div className="about-content-text mb-80">
-                                    <h6 className="wow fadeInUp" data-wow-delay="300ms">About TEDx IIM Bangalore</h6>
-                                    <h3 className="wow fadeInUp" data-wow-delay="300ms">Welcome to the Project Management</h3>
-                                    <p className="wow fadeInUp" data-wow-delay="300ms">The Project Management is a platform to learn
-                                        expert techniques for building successful project teams, creating efficient plans and
-                                        implementing effective tracking measures to ensure your projects come in on deadline and on
-                                        budget. In one fast-paced, well-designed day, we’ll cover all the essential elements of
-                                        project management.</p>
-                                    <a href="/#" className="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Interested <i
+                                    <h6 className="wow fadeInUp" data-wow-delay="300ms">TEDx IIM Bangalore</h6>
+                                    <h3 className="wow fadeInUp" data-wow-delay="300ms">Welcome to the Pinnacle </h3>
+                                    <p className="wow fadeInUp" data-wow-delay="300ms">After a hiatus, we are back, bigger and better! stay tuned for updates!</p>
+                                    <a href="/about" className="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Learn more <i
                                             className="zmdi zmdi-long-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -115,8 +112,8 @@ class Home extends React.Component{
                                 <div className="col-12 col-md-3">
 
                                     <div className="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
-                                        <h6>Conference Date</h6>
-                                        <h4>Count Every Second Until the Event</h4>
+                                        <h6>13 January 2024</h6>
+                                        <h4>Save the date</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-9">
@@ -127,7 +124,9 @@ class Home extends React.Component{
                                             renderer={this.renderer}
                                         />
                                     </div>
+                                    
                                 </div>
+                               
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,10 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 
 class Navbar extends React.Component {
+    componentDidMount(){
+        window.initResponsiveNav();
+    }
+
     render(){
       return (
           

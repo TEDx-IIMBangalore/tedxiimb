@@ -1,0 +1,43 @@
+.dark-blue-bg{
+    background-color: #111343;
+}
+
+.team-header-overlay{
+    position: relative;
+    z-index: 1;
+}.team-header-overlay::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #c63fa4;
+    opacity: 0.9; 
+    background-image:-webkit-linear-gradient(90deg, #111343 0%, #000 100%);
+    background-image: -moz-linear-gradient(90deg, #111343 0%, #000 100%);
+    background-image: -ms-linear-gradient(90deg, #111343 0%, #000 100%)
+}
+
+.single-welcome-slide .welcome-text h3{
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 90px;
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.x-factor{
+    color: rgb(235, 0, 40);
+    font-size: 50px;
+    position: absolute;
+    padding-top: 15px;
+}
+
+.contact-section, .about-section, .speaker-section{
+    padding-top: 200px;
+}
+

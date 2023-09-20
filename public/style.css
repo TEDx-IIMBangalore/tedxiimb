@@ -892,7 +892,7 @@ input:required {
       font-size: 90px;
       text-transform: uppercase;
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: -20px;
       color: #ffffff; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-welcome-slide .welcome-text h2 {
@@ -907,7 +907,7 @@ input:required {
         position: absolute;
         content: "";
         height: 23px;
-        width: 400px;
+        width: 200px;
         top: 67px;
         right: 5px;
         z-index: -1;
@@ -1470,6 +1470,9 @@ input:required {
       content: '\f105';
       color: #ffffff;
       font-family: "FontAwesome"; }
+    .breadcrumb-content p{
+      color: #fff;
+    }
 
 .breadcrumb-area.blog {
   height: 550px; }

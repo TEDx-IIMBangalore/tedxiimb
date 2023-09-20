@@ -9,6 +9,8 @@ import Tickets from './components/tickets';
 import Team from './components/team';
 import Conatct from './components/contact';
 
+//initResponsiveNav
+
 function App() {
   return (
     <Router>

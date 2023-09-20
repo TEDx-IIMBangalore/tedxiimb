@@ -35,8 +35,7 @@ class About extends React.Component{
                             techniques for building successful project teams, creating efficient plans and implementing effective
                             tracking measures to ensure your projects come in on deadline and on budget. In one fast-paced,
                             well-designed day, we’ll cover all the essential elements of project management.</p>
-                            <a href="#" className="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Interested <i
-                                className="zmdi zmdi-long-arrow-right"></i></a>
+                        
                         </div>
                         </div>
 

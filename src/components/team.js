@@ -280,11 +280,7 @@ class Team extends React.Component{
                             </div>
                         </div>
                         </div>
-                        <div className="col-12">
-                        <div className="more-speaker-btn text-center mt-20 wow fadeInUp" data-wow-delay="300ms">
-                            <a className="btn confer-btn" href="#">View All Speaker <i className="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>

@@ -7,7 +7,7 @@ class Conatct extends React.Component{
         return (
         <div>
 
-            <section className="contact--us-area section-padding-100-0 contact-section">
+            <section className="contact--us-area section-padding-100-0 contact-section contact-bg">
                 <div className="container">
                 <div className="row">
 

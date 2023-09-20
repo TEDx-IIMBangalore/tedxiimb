@@ -20,6 +20,26 @@
     background-image: -ms-linear-gradient(90deg, #111343 0%, #000 100%)
 }
 
+.inverse-header-overlay{
+    position: relative;
+    z-index: 1;
+}.inverse-header-overlay::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #c63fa4;
+    opacity: 0.9; 
+    background-image: -moz-linear-gradient(120deg, #eb0028 0%, #505add 0%);
+    background-image: -webkit-linear-gradient(120deg, #eb0028 0%, #505add 0%);
+    background-image: -ms-linear-gradient(120deg, #eb0028 0%, #505add 0%);
+}
+
+
+
 .single-welcome-slide .welcome-text h3{
     position: relative;
     z-index: 1;
@@ -39,6 +59,12 @@
 
 .contact-section, .about-section, .speaker-section{
     padding-top: 200px;
+}
+
+.contact-bg{
+    background-image:-webkit-linear-gradient(270deg, #484848 0%, #fff 25%);
+    background-image: -moz-linear-gradient(270deg, #484848 0%, #fff 25%);
+    background-image: -ms-linear-gradient(270deg, #484848 0%, #fff 25%)
 }
 
 .nabarlogo {

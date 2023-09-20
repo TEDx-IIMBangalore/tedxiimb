@@ -6,19 +6,39 @@ class Tickets extends React.Component{
     render(){
         return (
         <div>
-              <section className="breadcrumb-area bg-img bg-gradient-overlay jarallax"
+              <section className="breadcrumb-area bg-img inverse-header-overlay jarallax"
                 style={{'backgroundImage': "url('img/bg-img/27.jpg')"}}>
                 <div className="container h-100">
                 <div className="row h-100 align-items-center">
                     <div className="col-12">
                     <div className="breadcrumb-content">
                         <h2 className="page-title">Tickets</h2>
-                        <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                            <li className="breadcrumb-item active" aria-current="page">Tickets</li>
-                        </ol>
-                        </nav>
+                        <p className=''>
+                            Are you ready to attend the event?
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section className="call-to-action-area bg-img inverse-header-overlay jarallax section-padding-100"
+           >
+                <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                    <div className="call-to-action-content text-center">
+                        <div className="call-to-action-heading">
+                        <h6>Tickets</h6>
+                        <h2>Coming soon!</h2>
+                        </div>
+                        <div className="event-time">
+                        <p><i className="zmdi zmdi-alarm-check"></i> 13 Jan 2024</p>
+                        <p><i className="zmdi zmdi-map"></i>Auditorium, IIMB</p>
+                        </div>
+                    </div>
+                    <div className="ticket-btn text-center">
+                        <a href="#" className="btn confer-btn-white-2 mt-40">Remind me  <i className="zmdi zmdi-long-arrow-right"></i></a>
                     </div>
                     </div>
                 </div>
@@ -95,28 +115,7 @@ class Tickets extends React.Component{
             </section>
 
 
-            <section className="call-to-action-area bg-img bg-gradient-overlay jarallax section-padding-100"
-                 style={{'backgroundImage': "url('img/bg-img/14.jpg')"}}>
-                <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                    <div className="call-to-action-content text-center">
-                        <div className="call-to-action-heading">
-                        <h6>the event consistently</h6>
-                        <h2>Osha Compliance</h2>
-                        </div>
-                        <div className="event-time">
-                        <p><i className="zmdi zmdi-alarm-check"></i> 2-14 Jan 2019</p>
-                        <p><i className="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
-                        </div>
-                    </div>
-                    <div className="ticket-btn text-center">
-                        <a href="#" className="btn confer-btn-white-2 mt-40">Get Tickets <i className="zmdi zmdi-long-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </section>
+
         </div>
         )
     };

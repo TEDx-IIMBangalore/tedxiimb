@@ -29,9 +29,9 @@ function App() {
             <footer className="footer-area bg-img bg-overlay-2 section-padding-100-0">
                 <div className="main-footer-area">
                     <div className="container">
-                        <div className="row">
+                        <div className="row justify-content-between">
 
-                            <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="col-12 col-sm-6 col-lg-4">
                                 <div className="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
 
                                     <a href="#" className="footer-logo"><img src="img/core-img/logo.png" alt/></a>
@@ -47,70 +47,27 @@ function App() {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-lg-3">
+                           
+
+
+
+
+
+                            <div className="col-12 col-sm-6 col-lg-4">
                                 <div className="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
 
                                     <h5 className="widget-title">Contact</h5>
 
                                     <div className="footer-contact-info">
-                                        <p><i className="zmdi zmdi-map"></i> 184 Main Collins Street</p>
-                                        <p><i className="zmdi zmdi-phone"></i> (226) 446 9371</p>
-                                        <p><i className="zmdi zmdi-email"></i> <a href="" className="__cf_email__"
-                                                data-cfemail="e5868a8b838097a58288848c89cb868a88">[email&#160;protected]</a></p>
-                                        <p><i className="zmdi zmdi-globe"></i> www.confer.com</p>
+                                        <p><i className="zmdi zmdi-map"></i>Bannerghatta main road</p>
+                                        <p><i className="zmdi zmdi-phone"></i> 9876543210</p>
+                                        <p><i className="zmdi zmdi-email"></i> test@gmail.com</p>
+                                        <p><i className="zmdi zmdi-globe"></i> www.iimb.ac.in</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-lg-3">
-                                <div className="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
-
-                                    <h5 className="widget-title">Workshops</h5>
-
-                                    <ul className="footer-nav">
-                                        <li><a href="#">OSHA Compliance</a></li>
-                                        <li><a href="#">Microsoft Excel Basics</a></li>
-                                        <li><a href="#">Forum Speaker Series</a></li>
-                                        <li><a href="#">Tedx Moscow Conference</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-sm-6 col-lg-3">
-                                <div className="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
-
-                                    <h5 className="widget-title">Gallery</h5>
-
-                                    <div className="footer-gallery">
-                                        <div className="row">
-                                            <div className="col-4">
-                                                <a href="img/bg-img/21.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/21.jpg" alt/></a>
-                                            </div>
-                                            <div className="col-4">
-                                                <a href="img/bg-img/22.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/22.jpg" alt/></a>
-                                            </div>
-                                            <div className="col-4">
-                                                <a href="img/bg-img/23.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/23.jpg" alt/></a>
-                                            </div>
-                                            <div className="col-4">
-                                                <a href="img/bg-img/24.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/24.jpg" alt/></a>
-                                            </div>
-                                            <div className="col-4">
-                                                <a href="img/bg-img/25.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/25.jpg" alt/></a>
-                                            </div>
-                                            <div className="col-4">
-                                                <a href="img/bg-img/26.jpg" className="single-gallery-item"><img
-                                                        src="img/bg-img/26.jpg" alt/></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

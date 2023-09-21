@@ -29,14 +29,15 @@ class Navbar extends React.Component {
 
                             <div className="classynav">
                                 <ul id="nav">
-                                    <NavLink to="/" exact className={({ isActive }) => isActive ? "active" : "" }> <li><a>Home</a></li></NavLink>  
-                                    <NavLink to="/about" exact style={{color:'red'}}> <li><a>About Us</a></li></NavLink>  
-                                    <NavLink to="/speakers" exact style={{color:'red'}}> <li><a>Speakers</a></li></NavLink>  
+                                    <NavLink to="/" exact  className={({ isActive }) => isActive ? "bold-me" : "" }> <li><a>Home</a></li></NavLink>  
+                                    
+                                    <NavLink to="/about" exact > <li><a>About Us</a></li></NavLink>  
+                                    <NavLink to="/speakers" exact > <li><a>Speakers</a></li></NavLink>  
                                     {/* <NavLink to="/tickets" exact style={{color:'red'}}> <li><a>Tickets</a></li></NavLink>   */}
-                                    <NavLink to="/team" exact style={{color:'red'}}> <li><a>Team</a></li></NavLink> 
-                                    <NavLink to="/blog" exact style={{color:'red'}}> <li><a>Blog</a></li></NavLink> 
-                                    <NavLink to="/sponsors" exact style={{color:'red'}}> <li><a>Sponsors</a></li></NavLink> 
-                                    <NavLink to="/contact" exact style={{color:'red'}}> <li><a>Contact</a></li></NavLink>   
+                                    <NavLink to="/team" exact > <li><a>Team</a></li></NavLink> 
+                                    <NavLink to="/blog" exact > <li><a>Blog</a></li></NavLink> 
+                                    <NavLink to="/sponsors" exact > <li><a>Sponsors</a></li></NavLink> 
+                                    <NavLink to="/contact" exact> <li><a className="" style={{fontWeight : "700"}}>Get Involved!</a></li></NavLink>   
                                 </ul>
 
                                 {/* <Link to="/tickets" className="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i

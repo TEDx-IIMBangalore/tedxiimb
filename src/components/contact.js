@@ -6,8 +6,67 @@ class Contact extends React.Component{
     render(){
         return (
         <div>
+            <section className="what-we-offer-area section-padding-100-70 contact-section contact-bg">
+            <div className="container">
+            <div className="row">
 
-            <section className="contact--us-area section-padding-100-0 contact-section contact-bg">
+                <div className="col-12">
+                <div className="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                    <p>Summit Meeting</p>
+                    <h4>Become a Speaker</h4>
+                </div>
+                </div>
+            </div>
+            <div className="row">
+
+                <div className="col-12 col-md-6 col-xl-3">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon.png" alt/>
+                    </div>
+                    <h5>learn</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+                </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-xl-3">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon-2.png" alt/>
+                    </div>
+                    <h5>apply</h5>
+                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+                </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-xl-3">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon-3.png" alt/>
+                    </div>
+                    <h5>selection</h5>
+                    <p>On the other hand, we denounce with righteous indignation</p>
+                </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-xl-3">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon-4.png" alt/>
+                    </div>
+                    <h5>curation</h5>
+                    <p>These cases are perfectly simple and easy to distinguish in a free hour</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+            <section className="contact--us-area section-padding-100-0 ">
                 <div className="container">
                 <div className="row">
 
@@ -79,12 +138,59 @@ class Contact extends React.Component{
                 </div>
             </section>
 
+            <section className="what-we-offer-area section-padding-100-70">
+            <div className="container">
+            <div className="row">
 
-            <div className="map-area">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8521.851236327686!2d-74.6724533513314!3d40.961125464236446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c371b215154515%3A0xb2dc3766c77b480b!2sHopatcong%2C+NJ%2C+USA!5e0!3m2!1sen!2sbd!4v1552471083596"
-                allowfullscreen></iframe>
+                <div className="col-12">
+                <div className="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                    <p>reasons to </p>
+                    <h4>become a partner </h4>
+                </div>
+                </div>
             </div>
+            <div className="row">
+
+                <div className="col-12 col-md-6 col-xl-4">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon.png" alt/>
+                    </div>
+                    <h5>Brand Linking</h5>
+                    <p>Associate with a powerful worldwide brand and movement synonymous with creativity, collaboration, and innovation.</p>
+                </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-xl-4">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon-2.png" alt/>
+                    </div>
+                    <h5>Lead Generation</h5>
+                    <p>Gain highly qualified leads from tuned-in intellectuals across a variety of industries, including education, healthcare, and technology.</p>
+                </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-xl-4">
+                <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div className="offer-icon">
+                    <img src="img/core-img/icon-3.png" alt/>
+                    </div>
+                    <h5>Unconventional</h5>
+                    <p>Access unconventional showcase opportunities unique to our conference, creating genuine experiences that drive higher engagement.</p>
+                </div>
+                </div>
+
+
+            </div>
+            </div>
+        </section>
+
+
+
 
             <div className="container">
                 <div className="row">

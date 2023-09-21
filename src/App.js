@@ -116,7 +116,7 @@ function App() {
 
                 <div className="container">
                     <div className="copywrite-content">
-                        <div className="row justify-content-start">
+                        <div className="row">
 
                             <div className="col-12 col-md-6">
                                 <div className="copywrite-text">

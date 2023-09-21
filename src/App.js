@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Speakers from './components/speakers';
 import Tickets from './components/tickets';
 import Team from './components/team';
+import Blog from './components/blog';
 import Conatct from './components/contact';
 import ScrollToTop from './utils/ScrollToTop';
 
@@ -23,6 +24,8 @@ function App() {
                 <Route path="/speakers"  exact component={Speakers}></Route>
                 <Route path="/tickets"  exact component={Tickets}></Route>
                 <Route path="/team"  exact component={Team}></Route>
+                <Route path="/blog"  exact component={Blog}></Route>
+                <Route path="/blog/:slug"  exact component={Blog}></Route>
                 <Route path="/contact"  exact component={Conatct}></Route>
                 <Route path="/"  exact component={Home}></Route>
             </Switch>

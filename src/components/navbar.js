@@ -32,13 +32,14 @@ class Navbar extends React.Component {
                                     <NavLink to="/" exact className={({ isActive }) => isActive ? "active" : "" }> <li><a>Home</a></li></NavLink>  
                                     <NavLink to="/about" exact style={{color:'red'}}> <li><a>About Us</a></li></NavLink>  
                                     <NavLink to="/speakers" exact style={{color:'red'}}> <li><a>Speakers</a></li></NavLink>  
-                                    <NavLink to="/tickets" exact style={{color:'red'}}> <li><a>Tickets</a></li></NavLink>  
+                                    {/* <NavLink to="/tickets" exact style={{color:'red'}}> <li><a>Tickets</a></li></NavLink>   */}
                                     <NavLink to="/team" exact style={{color:'red'}}> <li><a>Team</a></li></NavLink> 
+                                    <NavLink to="/blog" exact style={{color:'red'}}> <li><a>Blog</a></li></NavLink> 
                                     <NavLink to="/contact" exact style={{color:'red'}}> <li><a>Contact</a></li></NavLink>   
                                 </ul>
 
-                                {/* <a href="#" className="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i
-                                        className="zmdi zmdi-long-arrow-right"></i></a> */}
+                                {/* <Link to="/tickets" className="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i
+                                        className="zmdi zmdi-long-arrow-right"></i></Link> */}
                             </div>
 
                         </div>

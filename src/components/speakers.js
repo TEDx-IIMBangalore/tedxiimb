@@ -149,6 +149,156 @@ class Speakers extends React.Component{
                 </div>
                 </div>
             </section>
+            <section className="our-schedule-area section-padding-100">
+                    <div className="container">
+                        <div className="row">
+
+                            <div className="col-12">
+                                <div className="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                                    <p>Our Timetable</p>
+                                    <h4>Schedule Plan</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="schedule-tab">
+
+                                    <ul className="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab"
+                                        role="tablist">
+                                        <li className="nav-item">
+                                            <a className="nav-link " id="monday-tab" data-toggle="tab" href="#step-one" role="tab"
+                                                aria-controls="step-one" aria-expanded="true"> <br/> <span> </span></a>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <a className="nav-link active" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab"
+                                                aria-controls="step-two" aria-expanded="true">Tuesday <br/> <span>January 15,
+                                                    2019</span></a>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="wednesday-tab" data-toggle="tab" href="#step-three" role="tab"
+                                                aria-controls="step-three" aria-expanded="true"> <br/> <span> </span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="tab-content" id="conferScheduleTabContent">
+                                    <div className="tab-pane fade show active" id="step-one" role="tabpanel"
+                                        aria-labelledby="monday-tab">
+
+                                        <div className="single-tab-content">
+                                            <div className="row">
+                                                <div className="col-12">
+
+                                                    <div className="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp"
+                                                        data-wow-delay="300ms">
+
+                                                        <div className="single-schedule-tumb-info d-flex align-items-center">
+
+                                                            <div className="single-schedule-tumb">
+                                                                <img src="img/bg-img/10.jpg" alt=""/>
+                                                            </div>
+
+                                                            <div className="single-schedule-info">
+                                                                <h6>Dealing with Difficult People</h6>
+                                                                <p>by <span>Gary Armstrong</span> / Ceo of Confer</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="schedule-time-place">
+                                                            <p><i className="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                            <p><i className="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                                        </div>
+
+                                                        <a href="/#" className="btn confer-btn">View More <i
+                                                                className="zmdi zmdi-long-arrow-right"></i></a>
+                                                    </div>
+
+                                                    <div className="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp"
+                                                        data-wow-delay="300ms">
+
+                                                        <div className="single-schedule-tumb-info d-flex align-items-center">
+
+                                                            <div className="single-schedule-tumb">
+                                                                <img src="img/bg-img/11.jpg" alt=""/>
+                                                            </div>
+
+                                                            <div className="single-schedule-info">
+                                                                <h6>Crop Insurance Conference</h6>
+                                                                <p>by <span>Amanda Hudson</span> / Ceo of Confer</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="schedule-time-place">
+                                                            <p><i className="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                            <p><i className="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                                        </div>
+
+                                                        <a href="/#" className="btn confer-btn">View More <i
+                                                                className="zmdi zmdi-long-arrow-right"></i></a>
+                                                    </div>
+
+                                                    <div className="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp"
+                                                        data-wow-delay="300ms">
+
+                                                        <div className="single-schedule-tumb-info d-flex align-items-center">
+
+                                                            <div className="single-schedule-tumb">
+                                                                <img src="img/bg-img/12.jpg" alt=""/>
+                                                            </div>
+
+                                                            <div className="single-schedule-info">
+                                                                <h6>Capdm Executive Conference</h6>
+                                                                <p>by <span>Martha Burke</span> / Ceo of Confer</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="schedule-time-place">
+                                                            <p><i className="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                            <p><i className="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                                        </div>
+
+                                                        <a href="/#" className="btn confer-btn">View More <i
+                                                                className="zmdi zmdi-long-arrow-right"></i></a>
+                                                    </div>
+
+                                                    <div className="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp"
+                                                        data-wow-delay="300ms">
+
+                                                        <div className="single-schedule-tumb-info d-flex align-items-center">
+
+                                                            <div className="single-schedule-tumb">
+                                                                <img src="img/bg-img/13.jpg" alt=""/>
+                                                            </div>
+
+                                                            <div className="single-schedule-info">
+                                                                <h6>Street Food Convention</h6>
+                                                                <p>by <span>Jeffrey Morales</span> / Ceo of Confer</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="schedule-time-place">
+                                                            <p><i className="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                            <p><i className="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                                        </div>
+
+                                                        <a href="/#" className="btn confer-btn">View More <i
+                                                                className="zmdi zmdi-long-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
         </div>
         )
     };

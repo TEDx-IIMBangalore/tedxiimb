@@ -57,7 +57,7 @@
     padding-top: 15px;
 }
 
-.contact-section, .about-section, .speaker-section{
+.contact-section, .about-section, .speaker-section, .sponsor-section{
     padding-top: 200px;
 }
 
@@ -70,18 +70,45 @@
 .nabarlogo {
     width: 30%;
 }
+@media only screen and (min-width: 990px) {
+    .copywrite-text{
+        text-align: start;
+    }
+}
 @media only screen and (max-width: 990px) {
     .nabarlogo {
         width: 50%;
+    }
+    .single-welcome-slide .welcome-text h3{
+        font-size: 40px;
+    }
+    .single-welcome-slide .welcome-text h2 {
+        font-size: 50px;
+    }
+    .x-factor{
+        font-size: 20px;
+        padding-top: 10px;
     }
 }
 @media only screen and (min-width: 767px) and (max-width: 990px) {
     .nabarlogo {
         width: 60%;
     }
+    .single-welcome-slide .welcome-text h3{
+        font-size: 60px;
+    }
+    .x-factor{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .nabarlogo {
         width: 70%;
     }
+    .single-welcome-slide .welcome-text h3{
+        font-size: 40px;
+    }
+    
 }

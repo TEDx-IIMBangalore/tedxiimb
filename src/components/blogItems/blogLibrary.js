@@ -1,9 +1,13 @@
 import React from 'react';
+import {Link, NavLink} from "react-router-dom";
+var data = require('./blogContent.json')
+
 
 
 class Library extends React.Component{   
     
     render(){
+        //TODO: add data loading from the json file
         return (
             <div className="our-blog-area section-padding-100">
                 <div className="container">
@@ -16,7 +20,7 @@ class Library extends React.Component{
                         <img src="img/bg-img/18.jpg" alt/>
                         </div>
                         <div className="single-blog-text text-center">
-                        <a className="blog-title" href="#">Street Food Convention</a>
+                        <Link to="/blog/lead-summit"><a className="blog-title">Street Food Convention</a></Link>
 
                         <div className="post-meta">
                             <a className="post-date" href="#"><i className="zmdi zmdi-alarm-check"></i> January 14, 2019</a>
@@ -25,7 +29,7 @@ class Library extends React.Component{
                         <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
                         </div>
                         <div className="blog-btn">
-                        <a href="#"><i className="zmdi zmdi-long-arrow-right"></i></a>
+                        <Link to="/blog/lead-summit"><i className="zmdi zmdi-long-arrow-right"></i></Link>
                         </div>
                     </div>
                     </div>
@@ -198,13 +202,7 @@ class Library extends React.Component{
                     </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12">
-                    <div className="more-blog-btn text-center">
-                        <a className="btn confer-btn" href="#">Load more <i className="zmdi zmdi-refresh"></i></a>
-                    </div>
-                    </div>
-                </div>
+
                 </div>
             </div>
         )

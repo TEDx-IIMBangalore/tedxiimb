@@ -8,12 +8,21 @@ import Speakers from './components/speakers';
 import Tickets from './components/tickets';
 import Team from './components/team';
 import Blog from './components/blog';
-import Conatct from './components/contact';
+import Contact from './components/contact';
 import ScrollToTop from './utils/ScrollToTop';
+import Sponsors from './components/sponsors';
+import Countdown from 'react-countdown';
 
 //initResponsiveNav
 
 function App() {
+    const renderer = ({ days,hours, minutes, seconds }) => {
+        {
+                 // Render a countdown
+                 return <div id="clock"><div>{days} <span>Days</span></div> <div>{hours}<span>Hours</span></div> <div>{minutes} <span>Minutes</span></div> <div>{seconds} <span>Seconds</span></div></div>
+                
+               }
+             };
   return (
     <Router>
         <ScrollToTop/>
@@ -26,10 +35,40 @@ function App() {
                 <Route path="/team"  exact component={Team}></Route>
                 <Route path="/blog"  exact component={Blog}></Route>
                 <Route path="/blog/:slug"  exact component={Blog}></Route>
-                <Route path="/contact"  exact component={Conatct}></Route>
+                <Route path="/contact"  exact component={Contact}></Route>
+                <Route path="/sponsors"  exact component={Sponsors}></Route>
                 <Route path="/"  exact component={Home}></Route>
             </Switch>
+            <section className="about-us-countdown-area section-padding-100-0" id="about">
+                    
+
+                    <div className="countdown-up-area">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-md-3">
+
+                                    <div className="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+                                        <h6>13 January 2024</h6>
+                                        <h4>Save the date</h4>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-9">
+                                    <div className="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+                                        
+                                        <Countdown
+                                            date={'2024-01-13T00:00:00'}
+                                            renderer={renderer}
+                                        />
+                                    </div>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </section>
             <footer className="footer-area bg-img bg-overlay-2 section-padding-100-0">
+            
                 <div className="main-footer-area">
                     <div className="container">
                         <div className="row justify-content-between">
@@ -77,7 +116,7 @@ function App() {
 
                 <div className="container">
                     <div className="copywrite-content">
-                        <div className="row">
+                        <div className="row justify-content-start">
 
                             <div className="col-12 col-md-6">
                                 <div className="copywrite-text">

@@ -35,6 +35,7 @@ class Navbar extends React.Component {
                                     {/* <NavLink to="/tickets" exact style={{color:'red'}}> <li><a>Tickets</a></li></NavLink>   */}
                                     <NavLink to="/team" exact style={{color:'red'}}> <li><a>Team</a></li></NavLink> 
                                     <NavLink to="/blog" exact style={{color:'red'}}> <li><a>Blog</a></li></NavLink> 
+                                    <NavLink to="/sponsors" exact style={{color:'red'}}> <li><a>Sponsors</a></li></NavLink> 
                                     <NavLink to="/contact" exact style={{color:'red'}}> <li><a>Contact</a></li></NavLink>   
                                 </ul>
 

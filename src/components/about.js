@@ -53,63 +53,50 @@ class About extends React.Component{
 
 
             <section className="what-we-offer-area section-padding-100-70">
-                <div className="container">
-                <div className="row">
+            <div className="container">
+                        <div className="row justify-content-center">
 
-                    <div className="col-12">
-                    <div className="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
-                        <p>Summit Meeting</p>
-                        <h4>What We Offer</h4>
-                    </div>
-                    </div>
-                </div>
-                <div className="row">
+                            <div className="col-12 col-lg-8 col-xl-9">
+                                <div className="pr-lg-4 mb-100">
 
-                    <div className="col-12 col-md-6 col-xl-3">
-                    <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+                                    <div className="post-details-content">
 
-                        <div className="offer-icon">
-                        <img src="img/core-img/icon.png" alt />
+                                    <div className="post-blog-thumbnail mb-30">
+                                    <img src="img/bg-img/46.jpg" alt/>
+                                    </div>
+
+            
+
+                                    <p>BW Education Leadership Summit focuses on recognizing applauding the quality of education in India by uniting Institution leaders and regulators to explore how they can leverage technologies, strategies and Management tools with each other to help create a world className Institution. Bringing together the Gamut of Early Childhood Brands, K 12 Brands, Exceptional Schools, Engineering Colleges.</p>
+
+                                    <blockquote className="confer-blockquote">
+                                    <h5>Colleges together, this pivotal event will feature high level dialogue and strategies as well as be a Platform to recognize and celebrate the Top Education Brands in the Country.</h5>
+                                    </blockquote>
+                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+                                    <div className="row">
+                                    <div className="col-6">
+                                    <img className="mb-30" src="img/bg-img/51.jpg" alt/>
+                                    </div>
+                                    <div className="col-6">
+                                    <img className="mb-30" src="img/bg-img/52.jpg" alt/>
+                                    </div>
+                                    </div>
+                                    <h5>Marketing Analytics &amp; Insights Summit</h5>
+                                    <p>Beyond demonstrating that marketing really works, the right analytics strategies can provide insights that inspire impactful marketing decisions, leading to increased ROI and revenue growth. Join us for our Marketing Analytics &amp; Insights Summit for a two-day deep dive into how top companies are using big data and analytics to dramatically improve the efficiency and efficacy of their marketing mix.</p>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+
+
                         </div>
-                        <h5>Conference</h5>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
                     </div>
-                    </div>
-
-                    <div className="col-12 col-md-6 col-xl-3">
-                    <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
-
-                        <div className="offer-icon">
-                        <img src="img/core-img/icon-2.png" alt />
-                        </div>
-                        <h5>Workshops</h5>
-                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
-                    </div>
-                    </div>
-
-                    <div className="col-12 col-md-6 col-xl-3">
-                    <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
-
-                        <div className="offer-icon">
-                        <img src="img/core-img/icon-3.png" alt />
-                        </div>
-                        <h5>Coffee Breaks</h5>
-                        <p>On the other hand, we denounce with righteous indignation</p>
-                    </div>
-                    </div>
-
-                    <div className="col-12 col-md-6 col-xl-3">
-                    <div className="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
-
-                        <div className="offer-icon">
-                        <img src="img/core-img/icon-4.png" alt />
-                        </div>
-                        <h5>Events</h5>
-                        <p>These cases are perfectly simple and easy to distinguish in a free hour</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                
             </section>
 
             
@@ -159,115 +146,7 @@ class About extends React.Component{
             </div>
 
 
-            <div className="our-client-area about-page section-padding-0-100">
-                <div className="container">
-                    <div className="row">
-
-                        <div className="col-12">
-                        <div className="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
-                            <p>WHAT CLIENTS SAY</p>
-                            <h4>Testimonials</h4>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-
-                        <OwlCarousel className='client-area owl-carousel' {...this.options}>
-
-                            <div className="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
-                                <div className="single-client-text about-page">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-                                    <div className="single-client-thumb-info d-flex align-items-center">
-
-                                    <div className="single-client-thumb">
-                                        <img src="img/bg-img/15.jpg" alt />
-                                    </div>
-
-                                    <div className="client-info">
-                                        <h6>Maria Hernandez</h6>
-                                        <p>UX Manager</p>
-                                    </div>
-                                    </div>
-                                </div>
-
-                                <div className="client-icon">
-                                    <i className="zmdi zmdi-quote"></i>
-                                </div>
-                                </div>
-
-                                <div className="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
-                                <div className="single-client-text about-page">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-                                    <div className="single-client-thumb-info d-flex align-items-center">
-
-                                    <div className="single-client-thumb">
-                                        <img src="img/bg-img/16.jpg" alt />
-                                    </div>
-
-                                    <div className="client-info">
-                                        <h6>Jacqueline Myers</h6>
-                                        <p>UX Manager</p>
-                                    </div>
-                                    </div>
-                                </div>
-
-                                <div className="client-icon">
-                                    <i className="zmdi zmdi-quote"></i>
-                                </div>
-                                </div>
-
-                                <div className="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
-                                <div className="single-client-text about-page">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-                                    <div className="single-client-thumb-info d-flex align-items-center">
-
-                                    <div className="single-client-thumb">
-                                        <img src="img/bg-img/15.jpg" alt />
-                                    </div>
-
-                                    <div className="client-info">
-                                        <h6>Maria Hernandez</h6>
-                                        <p>UX Manager</p>
-                                    </div>
-                                    </div>
-                                </div>
-
-                                <div className="client-icon">
-                                    <i className="zmdi zmdi-quote"></i>
-                                </div>
-                                </div>
-                            </OwlCarousel>
-
             
-                        </div>
-                    </div>
-                </div>
-                {/* <div className="countdown-up-area">
-                    <div className="container">
-                        <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
-
-                            <div className="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <h6>Conference Date</h6>
-                            <h4>Count Every Second Until the Event</h4>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-9">
-                            <div className="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <div id="clock"></div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
         </div>
         )
     };

@@ -41,22 +41,16 @@ class Speakers extends React.Component{
                     </div>
                     </div>
 
-                    { //TODO: Start here on Friday
-                    /* <div className="col-12 col-sm-6 col-lg-8">
-                    <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
-
-                        <div className="speaker-single-thumb">
-                        <div className="speaker-info-card">
-                             
-                                        <h5>Frances Alvarado</h5>
-                                        <span>UX Manager</span>
-                                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>
-                                       
+                 
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
                         </div>
-                        </div>
-
-                    </div>
-                    </div> */}
+                    </div> 
 
                     <div className="col-12 col-sm-6 col-lg-4">
                     <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
@@ -79,6 +73,16 @@ class Speakers extends React.Component{
                     </div>
                     </div>
 
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
+                        </div>
+                    </div> 
+
                     <div className="col-12 col-sm-6 col-lg-4">
                     <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
 
@@ -99,6 +103,16 @@ class Speakers extends React.Component{
                         </div>
                     </div>
                     </div>
+
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
+                        </div>
+                    </div> 
 
                     <div className="col-12 col-sm-6 col-lg-4">
                     <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
@@ -121,6 +135,16 @@ class Speakers extends React.Component{
                     </div>
                     </div>
 
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
+                        </div>
+                    </div> 
+
                     <div className="col-12 col-sm-6 col-lg-4">
                     <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
 
@@ -142,6 +166,16 @@ class Speakers extends React.Component{
                     </div>
                     </div>
 
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
+                        </div>
+                    </div> 
+
                     <div className="col-12 col-sm-6 col-lg-4">
                     <div className="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
 
@@ -162,6 +196,15 @@ class Speakers extends React.Component{
                         </div>
                     </div>
                     </div>
+                    <div className="col-12 col-sm-6 col-lg-8">
+                        <div className="single-speaker-area  wow fadeInUp" data-wow-delay="300ms">
+                            <div className="speaker-info-card">
+                                <h5>Frances Alvarado</h5>
+                                <span>UX Manager</span>
+                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing</p>     
+                            </div>
+                        </div>
+                    </div> 
 
                 </div>
                 </div>

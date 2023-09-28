@@ -100,8 +100,8 @@ class About extends React.Component{
             </section>
 
             <div className="map-area">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8521.851236327686!2d-74.6724533513314!3d40.961125464236446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c371b215154515%3A0xb2dc3766c77b480b!2sHopatcong%2C+NJ%2C+USA!5e0!3m2!1sen!2sbd!4v1552471083596"
+                <iframe 
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBIZGJQrDWCVdsR9j2UAHqhIMsL7stODJk&q=IIM+Bengaluru+Auditorium"
                 allowfullscreen></iframe>
             </div>
 

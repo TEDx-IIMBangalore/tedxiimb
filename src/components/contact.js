@@ -204,7 +204,7 @@ class Contact extends React.Component{
                             <div className="contact--info-icon">
                             <img src="img/core-img/icon-5.png" alt/>
                             </div>
-                            <h5>Bannerghatta main road</h5>
+                            <h5><a href="https://www.google.com/maps?saddr=My+Location&daddr=IIM+Bengaluru+Auditorium" target='blank'>Bannerghatta main road</a></h5>
                         </div>
                         </div>
 
@@ -214,7 +214,7 @@ class Contact extends React.Component{
                             <div className="contact--info-icon">
                             <img src="img/core-img/icon-6.png" alt/>
                             </div>
-                            <h5>9876543210</h5>
+                            <h5><a href='tel:9876543210' target='blank'>9876543210</a></h5>
                         </div>
                         </div>
 
@@ -224,7 +224,7 @@ class Contact extends React.Component{
                             <div className="contact--info-icon">
                             <img src="img/core-img/icon-7.png" alt/>
                             </div>
-                            <h5><a href="mailto:test@gmail.com" >[email&#160;protected]</a></h5>
+                            <h5><a href="mailto:test@gmail.com" >test@gmail.com</a></h5>
                         </div>
                         </div>
 
@@ -234,7 +234,7 @@ class Contact extends React.Component{
                             <div className="contact--info-icon">
                             <img src="img/core-img/icon-8.png" alt/>
                             </div>
-                            <h5>www.iimb.ac.in</h5>
+                            <h5><a href='https://www.iimb.ac.in' target='blank'>iimb.ac.in</a></h5>
                         </div>
                         </div>
                     </div>
